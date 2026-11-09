@@ -1,0 +1,29 @@
+project:
+  type: book
+  preview:
+    browser: false
+  output-dir: ../output
+
+execute:
+  echo: false
+  message: false
+  freeze: false
+  warning: false
+
+lang: en-GB
+
+format:
+  flandersqmd-leaflet-pdf:
+    fig-height: 2
+book:
+  chapters:
+    - index.md
+
+flandersqmd:
+  entity: INBO
+  level: 2
+  floatbarrier: section
+  title: Example for flandersqmd-leaflet
+  subtitle: optional subtitle
+  shorttitle: example
+  cover: media/cover.pdf
